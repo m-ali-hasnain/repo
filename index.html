@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: gainsboro;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+        margin-bottom: 10px;
+      }
+
+      main {
+        background-color: tomato;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      footer {
+        background-color: black;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+        padding: 20px;
+        margin: 10px;
+      }
+      #form {
+        background-color: wheat;
+        border-width: 2px;
+        border-color: black;
+        border-style: solid;
+        padding: 20px;
+        height: 300px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+        eaque ipsum consectetur est tenetur sit aspernatur error, nobis
+        laboriosam, quidem rerum voluptate. Molestiae excepturi ipsum laudantium
+        esse quo deleniti doloremque.
+      </p>
+    </main>
+
+    <footer>
+      <p style="color: white">CopyRight@ Muhammad Hasnain Ali</p>
+    </footer>
+    <div id="form">
+      <h1 style="text-align: center">Signup</h1>
+      <hr style="width: 50%; border-color: black; border-width: 2px" />
+      <form action="">
+        <label for="userName">Enter User Name:</label>
+        <input type="text" id="userName" required placeholder="John Doe" autofocus/>
+        <br />
+        <label for="email">Enter Email:</label>
+        <input type="email" id="email" required placeholder="john@gmail.com" />
+        <br />
+        <label for="password">Enter Password</label>
+        <input
+          type="password"
+          id="password"
+          required
+          placeholder="enter password here"
+        />
+        <br />
+        <label for="age">Enter Age:</label>
+        <input type="number" id="age" min=16 max=50 step="5">
+        <br>
+        <label for="color">Change Background Color</label>
+        <input type="color" name="colorChanger" id="color">
+        <br>
+        <label for="website">Enter Your Website Address</label>
+        <input type="url" id="website">
+        <br>
+        <input type="submit" />
+      </form>
+    </div>
+    
+  </body>
+</html>
